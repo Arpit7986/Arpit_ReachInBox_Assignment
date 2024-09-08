@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(135deg, #F8B400, #F6D365, #FDA085);
+    background-size: 400% 400%; 
+    animation: gradientBG 15s ease infinite
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-options {
+    margin-top: 10px;
+}
+
+.login-option {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    margin: 10px 0;
+}
+
+.login-button a {
+    display: block;
+    height: 55px;
+    width: 300px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 25px; 
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button a:hover {
+    transform: translateY(-3px);
+}
+
+.login-button i {
+    font-size: 20px;
+    margin-right: 15px; 
+}
+
+.google-login a {
+    background: linear-gradient(to right, #e72f1f 0%, #ea4335 100%);
+}
+
+.google-login a:hover {
+    background: linear-gradient(to left, #d14c40 0%, #da564a 100%);
+}
+.microsoft-login a {
+    background: linear-gradient(to right, #3b5998 0%, #476bb8 100%);
+}
+
+.microsoft-login a:hover {
+    background: linear-gradient(to left, #3b5998 0%, #476bb8 100%);
+}
